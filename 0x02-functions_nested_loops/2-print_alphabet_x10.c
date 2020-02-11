@@ -2,7 +2,7 @@
 
 /**
  * print_alphabet_x10 - prints the alphabet ten times
- * 
+ *
  * Return: void
  */
 void print_alphabet_x10(void)
@@ -12,6 +12,7 @@ void print_alphabet_x10(void)
 	while (a10 < 10)
 	{
 		int al = 97;
+
 		while (al <= 122)
 		{
 			_putchar(al);
