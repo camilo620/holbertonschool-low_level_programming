@@ -14,7 +14,7 @@ void times_table(void)
 	while (n1 <= 9)
 	{
 		_putchar('0');
-		n2 = 0;
+		n2 = 1;
 
 		while (n2 <= 9)
 		{
@@ -22,7 +22,7 @@ void times_table(void)
 			_putchar(' ');
 			mult = n1 * n2;
 
-			if (mult <= 10)
+			if (mult < 10)
 			{
 				_putchar(' ');
 				_putchar(mult + '0');
