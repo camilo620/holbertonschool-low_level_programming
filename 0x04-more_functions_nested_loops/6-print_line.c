@@ -18,4 +18,5 @@ void print_line(int n)
 		number--;
 	}
 	_putchar('\n');
+	return (0);
 }
