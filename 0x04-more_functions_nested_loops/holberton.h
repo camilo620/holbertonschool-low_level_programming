@@ -27,6 +27,8 @@ void print_to_98(int n);
 
 int _isupper(int c);
 
+void print_most_numbers(void);
+
 int mul(int a, int b);
 
 int _isdigit(int c);
