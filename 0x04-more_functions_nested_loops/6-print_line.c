@@ -2,7 +2,7 @@
 /**
  * print_line - draws a straight line
  *
- * Return: 0
+ * Return: void
  *
  * @n: number to be tested
  *
@@ -18,5 +18,4 @@ void print_line(int n)
 		number--;
 	}
 	_putchar('\n');
-	return (0);
 }
