@@ -16,10 +16,10 @@ void print_diagonal (int n)
 	if (n > 0)
 	{
 		n2 = 1;
-		while (n2 < n)
+		while (n2 <= n)
 		{
 			n3 = 1;
-			while (n3 < n2)
+			while (n3 <= n2)
 			{
 				_putchar(' ');
 				n3++;
