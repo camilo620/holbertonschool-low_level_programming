@@ -35,4 +35,6 @@ int _isdigit(int c);
 
 void print_numbers(void);
 
+void more_numbers(void);
+
 #endif
