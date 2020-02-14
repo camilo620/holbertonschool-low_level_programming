@@ -10,25 +10,26 @@
 
 void print_triangle(int size)
 {
-	int a;
-	int b;
+	int file;
+	int col;
+	int space;
+	int hash;
 
-	if (size > 0)
+	for (file = 0; file < size; file++)
 	{
-		for (b = size - a; b > 0; b--)
+		col = size - 1 - file;
+		for (space = size - 1 - file; space > 0; space--)
 		{
 			_putchar(' ');
-
-		for (b = 0; b < a; b++)
+		}
+		for (hash = size - col; hash > 0; hash--)
 		{
 			_putchar('#');
 		}
-		if (a == size)
-		{
-			continue;
-		}
 		_putchar('\n');
-		}
 	}
-	_putchar('\n');
+	if (size <= 0)
+	{
+		_putchar('\n');
+	}
 }
