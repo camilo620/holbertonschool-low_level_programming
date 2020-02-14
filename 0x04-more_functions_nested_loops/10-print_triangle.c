@@ -18,7 +18,7 @@ void print_triangle(int size)
 	for (file = 0; file < size; file++)
 	{
 		col = size - 1 - file;
-		for (space = size - 1 - file; space >= 0; space--)
+		for (space = size - 1 - file; space > 0; space--)
 		{
 			_putchar(' ');
 		}
