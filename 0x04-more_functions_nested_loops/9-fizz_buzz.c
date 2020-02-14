@@ -18,16 +18,16 @@ int main(void)
 		}
 		else if ((n % 5) == 0 && (n % 3) != 0)
 		{
-			printf("Buzz ");
-		}
-		else if ((n % 5) == 0 && (n % 3) == 0)
-		{
-			printf("FizzBuzz");
-
+			printf("Buzz");
+			
 			if (n != 100)
 			{
 				printf(" ");
 			}
+		}
+		else if ((n % 5) == 0 && (n % 3) == 0)
+		{
+			printf("FizzBuzz");
 		}
 		else
 		{
