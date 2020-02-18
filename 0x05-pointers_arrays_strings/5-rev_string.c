@@ -1,12 +1,10 @@
 #include "holberton.h"
 /**
+ * rev_string - revers a string
  *
+ * @s: string to be reverted
  *
- *
- *
- *
- *
- *
+ * Return: void
  *
  */
 
