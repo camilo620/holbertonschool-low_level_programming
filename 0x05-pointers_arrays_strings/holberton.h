@@ -15,6 +15,8 @@ int print_sign(int n);
 
 int _abs(int);
 
+void puts_half(char *str);
+
 int print_last_digit(int);
 
 void jack_bauer(void);
