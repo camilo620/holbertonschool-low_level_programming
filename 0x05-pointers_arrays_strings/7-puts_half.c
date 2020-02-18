@@ -20,6 +20,11 @@ void puts_half(char *str)
 
 	odd = a;
 
+	if (a % 2 != 0)
+	{
+		a++;
+	}
+
 	for (b = (a / 2); b < odd; b++)
 	{
 		_putchar(str[b]);
