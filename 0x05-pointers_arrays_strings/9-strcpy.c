@@ -1,13 +1,12 @@
 #include "holberton.h"
 /**
+ * _strcpy - copy an array onto another one
  *
+ * @dest: pointer to destination array
  *
+ * @src: pointer to source array
  *
- *
- *
- *
- *
- *
+ * Return: destination pointer
  *
  */
 
