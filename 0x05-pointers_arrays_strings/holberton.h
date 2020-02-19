@@ -11,6 +11,8 @@ int _islower(int c);
 
 int _isalpha(int c);
 
+char *_strcpy(char *dest, char *src);
+
 int print_sign(int n);
 
 int _abs(int);
