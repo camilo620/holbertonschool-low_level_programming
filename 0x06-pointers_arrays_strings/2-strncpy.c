@@ -1,16 +1,14 @@
 #include "holberton.h"
 /**
+ * _strncpy - copy n characters to destiny array
  *
+ * @dest: destiny array
  *
+ * @src: source array
  *
+ * @n: number of characters to be copied
  *
- *
- *
- *
- *
- *
- *
- *
+ * Return: destiny array pointer
  *
  */
 
