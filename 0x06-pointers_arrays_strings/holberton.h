@@ -1,6 +1,8 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
 
+char *string_toupper(char *s);
+
 void reverse_array(int *a, int n);
 
 int _strcmp(char *s1, char *s2);
