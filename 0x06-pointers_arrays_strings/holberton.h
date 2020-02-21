@@ -1,6 +1,8 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
 
+char *rot13(char *s);
+
 char *leet(char *s);
 
 char *cap_string(char *s);
