@@ -16,7 +16,7 @@ char *rot13(char *s)
 	{
 		for (; (s[a] >= 'a' && s[a] <= 'z') || (s[a] >= 'A' && s[a] <= 'Z'); a++)
 		{
-			if (s[a] >= 'm' || (s[a] >= 'M' && s[a] <= 'Z'))
+			if (s[a] > 'm' || (s[a] > 'M' && s[a] <= 'Z'))
 			{
 				s[a] = s[a] - 13;
 				break;
