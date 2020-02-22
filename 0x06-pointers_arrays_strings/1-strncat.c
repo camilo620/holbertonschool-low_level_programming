@@ -1,4 +1,4 @@
-:s:slude "holberton.h"
+#include "holberton.h"
 /**
  * _strncat - concatenates only n bytes of source into destiny
  *
