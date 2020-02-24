@@ -27,7 +27,7 @@ char *_strchr(char *s, char c)
 		}
 		else if (s[b] == 0)
 		{
-			s = &s[b];
+			s = '\0';
 		}
 	}
 	return (s);
