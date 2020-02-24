@@ -33,7 +33,6 @@ char *_strstr(char *haystack, char *needle)
 			a++;
 			}
 
-
 		}
 		if (needle[b] == 0)
 		{
@@ -42,5 +41,5 @@ char *_strstr(char *haystack, char *needle)
 		}
 	}
 	}
-	return (0);
+	return (haystack);
 }
