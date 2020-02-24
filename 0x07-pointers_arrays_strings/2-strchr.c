@@ -6,7 +6,7 @@
  *
  * @c: character to be searched
  *
- * Resturn: pointer to character
+ * Return: pointer to character
  *
  */
 
@@ -21,6 +21,11 @@ char *_strchr(char *s, char c)
 	for (b = 0; b <= a; b++)
 	{
 		if (s[b] == c)
+		{
+			s = &s[b];
+			break;
+		}
+		else if (s[b] == 0)
 		{
 			s = &s[b];
 		}
