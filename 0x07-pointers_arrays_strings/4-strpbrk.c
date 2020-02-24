@@ -31,11 +31,11 @@ char *_strpbrk(char *s, char *accept)
 				s = &s[b];
 				return (s);
 			}
-			else if (s[b] == 0)
-			{
-				s = '\0';
-				break;
-			}
+		}
+		if (s[b] == 0)
+		{
+			s = '\0';
+			break;
 		}
 	}
 	return (s);
