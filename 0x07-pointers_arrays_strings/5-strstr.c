@@ -1,14 +1,12 @@
 #include "holberton.h"
 /**
+ * _strstr - search for an exact substring
  *
+ * @haystack: string to be tested
  *
+ * @needle: substring to be searched
  *
- *
- *
- *
- *
- *
- *
+ * Return: pointer to substring found
  *
  */
 
