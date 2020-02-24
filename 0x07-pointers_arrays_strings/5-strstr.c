@@ -17,29 +17,33 @@ char *_strstr(char *haystack, char *needle)
 	int a;
 	int b;
 
-	if (needle[0] != 0 && haystack[0] != 0)
+	if (needle[0] != 0)
 	{
 
-	for (a = 0; haystack[a] != 0; a++)
-	{
-		for (b = 0; needle[b] != 0; b++)
+		for (a = 0; haystack[a] != 0; a++)
 		{
-			if (haystack[a] != needle[b])
+			for (b = 0; needle[b] != 0; b++)
 			{
-				break;
-			}
-			else if (haystack[a] == needle[b])
-			{
-			a++;
-			}
+				if (haystack[a] != needle[b])
+				{
+					break;
+				}
+				else if (haystack[a] == needle[b])
+				{
+					a++;
+				}
 
+			}
+			if (needle[b] == 0)
+			{
+				haystack = &haystack[a - b];
+				return (haystack);
+			}
 		}
-		if (needle[b] == 0)
+		if (haystack[a] == 0)
 		{
-			haystack = &haystack[a - b];
-			return (haystack);
+			haystack = '\0';
 		}
-	}
 	}
 	return (haystack);
 }
