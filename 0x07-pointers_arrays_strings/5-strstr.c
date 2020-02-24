@@ -21,15 +21,21 @@ char *_strstr(char *haystack, char *needle)
 	{
 		for (b = 0; needle != 0; b++)
 		{
-			if (haystack[a] != needle [b])
+			if (haystack[a] != needle[b])
 			{
 				break;
 			}
-			else
+			else if (haystack[a] == needle[b])
 			{
-				haystack = &haystack[a];
-				return (haystack);
+				a++;
 			}
+
+
+		}
+		if (needle[b] == 0)
+		{
+			haystack = &haystack[a];
+			return (haystack);
 		}
 	}
 	return (0);
