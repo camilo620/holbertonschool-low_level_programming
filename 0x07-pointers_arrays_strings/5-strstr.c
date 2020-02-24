@@ -34,7 +34,7 @@ char *_strstr(char *haystack, char *needle)
 		}
 		if (needle[b] == 0)
 		{
-			haystack = &haystack[a];
+			haystack = &haystack[a - b];
 			return (haystack);
 		}
 	}
