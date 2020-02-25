@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- * print_diagsum - prints a sum diagonal
+ * print_diagsums - sums integers in diagonal
  *
  * @a: matrix of integers
  *
