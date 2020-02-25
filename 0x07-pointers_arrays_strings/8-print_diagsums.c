@@ -1,5 +1,5 @@
 #include "holberton.h"
-#include <stadio.h>
+#include <stdio.h>
 /**
  * print_diagsum - prints a sum diagonal
  *
