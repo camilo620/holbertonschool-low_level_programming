@@ -1,15 +1,10 @@
 #include "holberton.h"
 /**
+ * print_chessboard - prints a chessboard
  *
+ * @a: string to print the chess
  *
- *
- *
- *
- *
- *
- *
- *
- *
+ * Return: void
  *
  */
 
