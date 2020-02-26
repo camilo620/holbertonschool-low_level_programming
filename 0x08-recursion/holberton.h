@@ -1,6 +1,8 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
 
+void _print_rev_recursion(char *s);
+
 void _puts_recursion(char *s);
 
 void print_chessboard(char (*a)[8]);

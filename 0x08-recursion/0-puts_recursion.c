@@ -1,14 +1,10 @@
 #include "holberton.h"
 /**
+ * _puts_recursion - prints a string using recursion
  *
+ * @s: string to be printed
  *
- *
- *
- *
- *
- *
- *
- *
+ * Return: void
  *
  */
 
