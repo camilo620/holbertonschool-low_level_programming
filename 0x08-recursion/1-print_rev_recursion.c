@@ -1,13 +1,10 @@
 #include "holberton.h"
 /**
+ * _print_rev_recursion - prints a string but reversal
  *
+ * @s: string to be printed
  *
- *
- *
- *
- *
- *
- *
+ * Return: void
  *
  */
 
