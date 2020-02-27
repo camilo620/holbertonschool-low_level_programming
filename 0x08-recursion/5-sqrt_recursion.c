@@ -1,34 +1,38 @@
 #include "holberton.h"
 /**
+ * funcion - recursion to find square root
  *
+ * @m: square root
  *
+ * @n: number to find square root
  *
- *
- *
- *
- *
- *
- *
+ * Return: m
  *
  */
 int funcion(int n, int m)
 {
-	if ((n / m) * (n / m) > n)
+	if (m * m == n)
 	{
-		return (funcion((n / m), m));
+		return (m);
 	}
-	if ((n / m) * (n / m) == n)
-	{
-		return (n / m);
-	}
-	else
+	if (m * m > n)
 	{
 		return (-1);
 	}
+	return (funcion(n, m + 1));
 }
+
+/**
+ * _sqrt_recursion - finds the square root of n
+ *
+ * @n: number to find square root
+ *
+ * Return: i = square root of
+ */
 
 int _sqrt_recursion(int n)
 {
-	int i = funcion(n, 2);
+	int i = funcion(n, 1);
+
 	return (i);
 }
