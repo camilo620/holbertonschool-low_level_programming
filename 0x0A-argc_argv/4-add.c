@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		for (counter1 = 1z; counter1 < argc; counter1++)
+		for (counter1 = 1; counter1 < argc; counter1++)
 		{
 
 			for (counter2 = 0; argv[counter1][counter2] != 0; counter2++)
