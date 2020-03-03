@@ -1,14 +1,13 @@
 #include <stdlib.h>
 #include "holberton.h"
 /**
+ * str_concat - concatenates two arrays into a new malloc pointer
  *
+ * @s1: first string to be copied
  *
+ * @s2: second string to be concatenate
  *
- *
- *
- *
- *
- *
+ * Return: pointer to malloc string
  *
  */
 
