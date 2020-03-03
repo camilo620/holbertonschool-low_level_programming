@@ -14,19 +14,18 @@
 
 int **alloc_grid(int width, int height)
 {
-	int *c;
+	int **a;
 	int b;
 	int counter;
-Int a**;
 
 	if (width <= 0 || height <= 0)
 	{
 		return (NULL);
 	}
 
-	c = malloc((width * height) * sizeof(int));
+	a = malloc((width * height) * sizeof(int));
 
-	if (c == 0)
+	if (a == 0)
 	{
 		return (NULL);
 	}
@@ -35,9 +34,8 @@ Int a**;
 	{
 		for (b = 0;b < width; b++)
 		{
-			c[counter][b] = '0';
+			a[counter][b] = '0';
 		}
 	}
-a = &c
 	return (a);
 }
