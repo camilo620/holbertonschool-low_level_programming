@@ -18,10 +18,6 @@ char *str_concat(char *s1, char *s2)
 	int contador2;
 	char *a;
 
-	if (s1 == 0 || s2 == 0)
-	{
-		return (NULL);
-	}
 
 	for (contador = 0; s1[contador] != 0; contador++)
 	{
