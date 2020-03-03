@@ -29,7 +29,7 @@ char *str_concat(char *s1, char *s2)
 	for (contador2 = 0; s2[contador2] != 0; contador2++)
 	{
 	}
-	a = malloc((contador + contador2) * sizeof(char) + 1);
+	a = malloc((contador + contador2 + 1) * sizeof(char));
 
 	if (a == NULL)
 	{
