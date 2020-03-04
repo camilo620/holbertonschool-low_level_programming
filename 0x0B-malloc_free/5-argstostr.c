@@ -26,10 +26,10 @@ char *argstostr(int ac, char **av)
 	{
 		for (b = 0; av[a][b] != 0; b++)
 		{
-			c++;
 		}
+		c += b;
 	}
-	string = malloc(sizeof(char) * (c + 1));
+	string = malloc(sizeof(char) * (ac + c + 1));
 	if (string == NULL)
 	{
 		return (NULL);
