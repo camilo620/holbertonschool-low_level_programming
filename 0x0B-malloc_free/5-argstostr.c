@@ -30,11 +30,13 @@ char *argstostr(int ac, char **av)
 		c += b;
 	}
 	string = malloc(sizeof(char) * (ac + c + 1));
+
 	if (string == NULL)
 	{
 		return (NULL);
 	}
-	for(a = 0, c = 0; a < ac; a++)
+
+	for (a = 0, c = 0; a < ac; a++)
 	{
 		for (b = 0; av [a][b] != 0; b++)
 		{
