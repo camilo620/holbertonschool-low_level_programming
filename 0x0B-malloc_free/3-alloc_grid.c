@@ -1,14 +1,13 @@
 #include "holberton.h"
 #include <stdlib.h>
 /**
+ * alloc_grid - create a 2D array with variable memory
  *
+ * @width: width of the matrix
  *
+ * @height: height of the matrix
  *
- *
- *
- *
- *
- *
+ * Return: pointer to the array if succes or NULL if failure
  *
  */
 
