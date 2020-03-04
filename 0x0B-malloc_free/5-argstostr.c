@@ -1,13 +1,13 @@
 #include <stdlib.h>
 #include "holberton.h"
 /**
+ * argstostr - create a string based on av
  *
+ * @ac: count of command arguments
  *
+ * @av: array of command arguments
  *
- *
- *
- *
- *
+ * Return: pointer to new array based on av or NULL if failure
  */
 
 char *argstostr(int ac, char **av)
@@ -29,7 +29,7 @@ char *argstostr(int ac, char **av)
 		}
 		c += b;
 	}
-	string = malloc(sizeof(char) * (ac + c + 1));
+	string = malloc(sizeof(char) * (c + 1));
 	if (string == NULL)
 	{
 		return (NULL);
