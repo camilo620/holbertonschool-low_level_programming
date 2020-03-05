@@ -1,6 +1,8 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
 
+void *malloc_checked(unsigned int b);
+
 char *argstostr(int ac, char **av);
 
 void free_grid(int **grid, int height);
