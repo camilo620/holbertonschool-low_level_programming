@@ -36,7 +36,7 @@ int *array_range(int min, int max)
 	{
 		array[a] = counter;
 	}
-	array[counter] = '\0';
+	array[a] = '\0';
 
 	return (array);
 }
