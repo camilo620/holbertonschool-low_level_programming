@@ -32,7 +32,7 @@ int *array_range(int min, int max)
 		return (NULL);
 	}
 
-	for (counter = min; counter <= max; counter++, a++)
+	for (counter = min; a <= range; counter++, a++)
 	{
 		array[a] = counter;
 	}
