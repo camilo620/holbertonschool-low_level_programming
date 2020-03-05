@@ -2,10 +2,7 @@
 #include <stdio.h>
 
 /**
-   * main - check the code for Holberton School students.
-    *
-     * Return: Always 0.
-      */
+   * ma
 int main(void)
 {
 	    char s[10] = "Holberton";

@@ -1,12 +1,18 @@
 #include "holberton.h"
 
-/**
-   * main - check the code for Holberton School students.
-    *
-     * Return: Always 0.
-      */
+
+void recursion(char *s)
+{
+        if (*s != 0)
+        {
+                s++;
+                recursion(s);
+                _putchar(s - 1);
+        }
+}
+
 int main(void)
 {
-	    _print_rev_recursion("\nColton Walker");
+	    recursion("\nColton Walker");
 	        return (0);
 }
