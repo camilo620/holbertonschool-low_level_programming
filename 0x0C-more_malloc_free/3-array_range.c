@@ -16,6 +16,7 @@ int *array_range(int min, int max)
 	int *array;
 	int counter;
 	int range;
+	int a = 0;
 
 	if (min > max)
 	{
@@ -31,9 +32,9 @@ int *array_range(int min, int max)
 		return (NULL);
 	}
 
-	for (counter = min; counter <= max; counter++)
+	for (counter = min; counter <= max; counter++, a++)
 	{
-		array[counter] = counter;
+		array[a] = counter;
 	}
 	array[counter] = '\0';
 
