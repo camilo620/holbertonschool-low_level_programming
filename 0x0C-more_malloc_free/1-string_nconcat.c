@@ -35,11 +35,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	for (contador2 = 0; s2[contador2] != 0; contador2++)
 	{
 	}
-	if (contador2 >= n)
-	{
-		contador2 = n;
-	}
-	a = malloc((contador + contador2 + 1) * sizeof(char));
+	a = malloc((contador + n + 1) * sizeof(char));
 
 	if (a == NULL)
 	{
@@ -50,7 +46,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		a[contador] = s1[contador];
 	}
-	for (contador2 = 0; contador2 <= n && s2[contador2] != 0; contador2++)
+	for (contador2 = 0; contador2 < n && s2[contador2] != 0; contador2++)
 	{
 		a[contador] = s2[contador2];
 		contador++;
