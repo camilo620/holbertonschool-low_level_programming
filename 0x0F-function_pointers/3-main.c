@@ -10,8 +10,8 @@
 
 int main(int argc, char *argv[])
 {
-	int n1 = atoi(argv[1]);
-	int n2 = atoi(argv[3]);
+	int n1;
+	int n2;
 	int result;
 
 	if (argc != 4)
@@ -19,7 +19,9 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(98);
 	}
-	if (n2 == 0)
+	n1 = atoi(argv[1]);
+	n2 = atoi(argv[3]);
+	if ((*argv[2] == '/' || *argv[2] == '%') && n2 == 0)
 	{
 		printf("Error\n");
 		exit(100);
