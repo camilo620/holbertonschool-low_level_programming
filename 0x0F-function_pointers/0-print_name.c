@@ -1,5 +1,5 @@
-#include "holberton.h"
-#include <stdio.h>
+#include "function_pointers.h"
+#include <stdlibh>
 /**
  * print_name - prints name with a funtion pointer
  *
