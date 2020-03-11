@@ -29,5 +29,5 @@ op_t ops[] = {
 	}
 	printf("Error\n");
 	exit(99);
-	return (NULL);
+	return (0);
 }
