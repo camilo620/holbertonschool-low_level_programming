@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(98);
 	}
-	if ((argv[2] == / || argv[2] == %) &&n2 == 0)
+	if (n2 == 0)
 	{
 		printf("Error\n");
 		exit(100);
