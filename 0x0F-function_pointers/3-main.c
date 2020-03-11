@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 
 	if (argv[2][1] != '\0')
 	{
-		 exit(99);
+		exit(99);
 	}
 
 	if (argc != 4)
