@@ -1,0 +1,1 @@
+This directory contains answers for the project variadic functions at Holberton School
