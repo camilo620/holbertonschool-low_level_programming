@@ -10,24 +10,24 @@
 
 int sum_them_all(const unsigned int n, ...)
 {
-    int i;
-    va_list list1;
-    int sum;
+	unsigned int i;
+	va_list list1;
+	int sum = 0;
 
-    if (n == 0)
-    {
-        va_end(va_list);
-        return (0);
-    }
+	if (n == 0)
+	{
+		va_end(list1);
+		return (0);
+	}
 
-    va_start(va_list, n);
+	va_start(list1, n);
 
-    for (i = 0; i < n; i++)
-    {
-        sum += va_arg(va_list, list1);
-    }
+	for (i = 0; i < n; i++)
+	{
+		sum += va_arg(list1, int);
+	}
 
-    va_end(va_list);
+	va_end(list1);
 
-    return (sum);
+	return (sum);
 }
