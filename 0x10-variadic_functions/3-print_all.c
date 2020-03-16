@@ -40,7 +40,7 @@ void string(va_list arg)
 	pointer = va_arg(arg, char *);
 	if (pointer == 0)
 	{
-		s = "(nil)";
+		pointer = "(nil)";
 	}
 	printf("%s", pointer);
 
