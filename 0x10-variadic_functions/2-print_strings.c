@@ -1,12 +1,12 @@
 #include <stdarg.h>
 #include <stdio.h>
 /**
-   * print_strings - prints strings
-    * @separator: Separates
-     * @n: Holds the amount of arguments
-      * @...: Holds many more arguments :D
-       * Return: none
-        */
+ * print_strings - prints strings
+ * @separator: string to separate
+ * @n: number of arguments
+ * @...: arguments
+ * Return: void
+ */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
@@ -17,7 +17,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	for (i = 0; i < n; i++)
 	{
 		point = va_arg(string, char *);
-		if (point!= 0)
+		if (point != 0)
 			printf("%s", point);
 		else
 			printf("(nil)");
