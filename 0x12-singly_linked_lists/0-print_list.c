@@ -1,5 +1,8 @@
 #include "lists.h"
 /**
+ * print_list - prints a list of strings
+ * @h: node struct
+ * Return: size of node struct
  */
 size_t print_list(const list_t *h)
 {
