@@ -1,0 +1,1 @@
+This directory contains answers for project linked list at Holberton School.
