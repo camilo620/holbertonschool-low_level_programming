@@ -14,9 +14,13 @@ unsigned int binary_to_uint(const char *b)
 	{
 		for (pot = 0; b[pot] != 0; pot++)
 			if (b[pot] < 48 || b[pot] > 57)
+			{
 				return (0);
+			}
 		for (i = 0, suma = 0, pot -= 1; b[i] != 0; pot--, i++)
+		{
 			suma += ((b[i] - '0') << pot);
+		}
 		return (suma);
 	}
 	return (0);
