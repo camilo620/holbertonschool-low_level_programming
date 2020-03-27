@@ -7,8 +7,8 @@
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int i;
-    unsigned int suma;
-    unsigned int pot;
+	unsigned int suma;
+	unsigned int pot;
 
 	if (b != 0)
 	{
