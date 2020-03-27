@@ -1,0 +1,1 @@
+This directory contains answers for the project bit manipulation at Holberton School
