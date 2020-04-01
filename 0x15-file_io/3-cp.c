@@ -3,7 +3,7 @@
  * main - Main
  * @argc: argument count
  * @argv: arguments
- * Return: 0 if success, other errors if failure
+ * Return: 0 if success, other numbers if different failures occur
  */
 int main(int argc, char *argv[])
 {
@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
 	}
 	o = close(f);
 
-
+	o = close(f2);
 
 return (0);
 }
