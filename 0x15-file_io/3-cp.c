@@ -3,26 +3,23 @@
  * main - Main
  * @argc: argument count
  * @argv: arguments
- * Return: 0 if success, other numbers if different failures occur
+ * Return: 0 if success, other errors if failure
  */
 int main(int argc, char *argv[])
 {
-	int f; 
-    int f2;
-    char BUFFER[1024];
-    int i;
-    int o;
+	int f;
+	int f2;
+	char BUFFER[1024];
+	int i;
+	int o;
 
 	if (argc != 3)
-    {
+	{
 		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n"), exit(97);
-    }
+	}
 	f = open(argv[1], O_RDONLY);
-    
-	
-	f2 = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 
-	
+	f2 = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 
 	for (i = 1024; i == 1024;)
 	{
@@ -37,13 +34,7 @@ int main(int argc, char *argv[])
 	}
 	o = close(f);
 
-	if (o == -1)
-    {
-		dprintf(STDERR_FILENO, "Error: Can't close fd  %d\n", f), exit(100);
-    }
-	o = close(f2);
 
-	
 
 return (0);
 }
