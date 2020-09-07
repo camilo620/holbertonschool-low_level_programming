@@ -12,9 +12,9 @@ size_t print_dlistint(const dlistint_t *h)
 {
 	unsigned int n;
 
-	for (n = 0; !h; n++)
+	for (n = 0; h; n++)
 	{
-		printf("%d", h->n);
+		printf("%d\n", h->n);
 		h = h->next;
 	}
 
