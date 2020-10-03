@@ -1,0 +1,1 @@
+Answers for project hash tables at Holberton School.
